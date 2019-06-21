@@ -1,0 +1,83 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    user-select: none;
+    background-attachment: fixed;
+}
+#intro {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#btn-index{
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+}
+#btn-index:hover{
+	background-color: #fff;
+	color: black;
+}
+.top-nav-collapse {
+  background-color: rgb(20,20,20);
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: rgb(20,20,20);
+  }
+#login-form{
+  height: 100%;
+  width: 100%;
+}
+#drop-float{
+  float: right;
+}
+#navbar-intro{
+  display: none;
+}
+.nav-ico{
+  display: none;
+}
+.form-inline{
+  margin-bottom: 10px;
+}
+  #video-page{
+   min-width: 100%; 
+  }
+  .fav-icon{
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: rgb(20,20,20);
+  }
+#login-form{
+  height: 100%;
+  width: 100%;
+}
+#drop-float{
+  float: right;
+}
+#navbar-intro{
+  display: none;
+}
+.nav-ico{
+  display: none;
+}
+.form-inline{
+  margin-bottom: 10px;
+}
+#video-page{
+    min-height: 100%;
+}
+.fav-icon{
+  width: 40px;
+  height: 40px;
+}
+}
